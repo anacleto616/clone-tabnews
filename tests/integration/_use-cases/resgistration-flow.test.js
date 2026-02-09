@@ -99,8 +99,6 @@ describe("Use case: Resgistration Flow (all successful)", () => {
       },
     );
 
-    console.log(createSessionsResponse);
-
     expect(createSessionsResponse.status).toBe(201);
 
     const createSessionsResponseBody = await createSessionsResponse.json();
