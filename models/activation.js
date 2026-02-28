@@ -111,7 +111,7 @@ async function activateUserByUserId(userId) {
 
 async function sendEmailToUser(user, activationToken) {
   await email.send({
-    from: "Email <contato@email.com.br>",
+    from: "Email <contato@anacletodev.com.br>",
     to: user.email,
     subject: "Ative seu cadastro!",
     text: `${user.username}, clique no link abaixo para ativar seu cadastro.
